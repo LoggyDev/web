@@ -1,174 +1,69 @@
+
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-<style>
-body, html {
-  height: 100%;
-  font-family: "Inconsolata", sans-serif;
-}
-
-.bgimg {
-  background-position: center;
-  background-size: cover;
-  background-image: url("/w3images/coffeehouse.jpg");
-  min-height: 75%;
-}
-
-.menu {
-  display: none;
-}
-</style>
+  <head>
+    <link rel="shortcut icon" type="image/png" href="img/Icon.png">
+    <!-- Nav Bar -->
+    <style>
+      #blackbar {
+        position:absolute;
+        width:100%;
+        height:40px;
+        background-color:lightblue;
+        top:0px;
+        left:0px;
+        z-index:-5;
+      }
+      a{
+        color:green;
+      }
+      a:link {
+        text-decoration: none;
+      }
+      a:visited {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      a:active {
+        text-decoration: underline;
+      }
+    </style>
+    <title>About me</title>
+    <a href="hacking.html" style="position:absolute;left:47%;">Hacking</a>
+    <a href="index.html" style="float:left;">About me</a>
+    <a href="coding.html" style="float:right;" >Coding</a>
+    <div id="blackbar"></div>
+    <br>
+    <!-- end of Nav Bar -->
+    <!-- Start of Text -->
+    <div style="text-align:center">
+      <h1>About Me</h1>
+      <p>My name is Landon ***** ever since I was a kid my passion has been about computers and has now been morphed into computer science. When I was young 2-3 my dad had a ps3 and thats what I started to play games on and then at 3 I got my own xbox 36<a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" style="text-decoration:none; color:black;">0</a>. Lets just say I played minecraft alot and as I grew up at 4 my parents divorced, so I had to live at my grandmas house with my mom and then my dad got a new house so it was pretty hard switching houses and all that but I got used to it and continued on with my life.</p>
+      <p> When I grow up I want to be a penintration tester and your probley things "What is that?" its where companys hire you to try to exploit/hack there systems and to tell them there vulnerabilities, and you get alot of money im talking $117,506 on average a year, now think of how much you get paid a job most likely $100-$1000.</p>
+      <p>So im getting some gadgets that will be super cool like the wifi pineapple, the rasberry pie, Ducky, Etc. I dont know who came up with these names but they are hacking gadgets. My favorite one called the wifi pineapple it demonstrates why to be safe on connecting to free wifi networks and why to use a vpn. I<a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" style="text-decoration:none; color:black;">f</a> you want to get more in depth with it go to this link where they demonstrate how its used and what it can do <a href="https://www.youtube.com/watch?v=NkNgW3TwMy8" style="color:blue;" >Wifi Pineapple Video</a>.</p>
+      <div style="text-align:center;">
+        <p>&copy; Landon ***** 2019</p><footer>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+        </footer>
+      </div> 
+    </div>
+    <!-- End of text -->
+    <!-- Backround -->
+    <style>
+      body{
+        background-image: url("https://www.siarza.com/wp-content/uploads/2017/12/webplunder-background-image-technology-online-website-solutions.jpg");
+      }
+    </style>
+    <!-- End of Backround -->
+    </div>
+  </head>
 <body>
-
-<!-- Links (sit on top) -->
-<div class="w3-top">
-  <div class="w3-row w3-padding w3-black">
-    <div class="w3-col s3">
-      <a href="#" class="w3-button w3-block w3-black">HOME</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
-    </div>
-  </div>
-</div>
-
-<!-- Header with image -->
-<header class="bgimg w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag">Open from 6am to 5pm</span>
-  </div>
-  <div class="w3-display-middle w3-center">
-    <span class="w3-text-white" style="font-size:90px">the<br>Cafe</span>
-  </div>
-  <div class="w3-display-bottomright w3-center w3-padding-large">
-    <span class="w3-text-white">15 Adr street, 5015</span>
-  </div>
-</header>
-
-<!-- Add a background color and large text to the whole page -->
-<div class="w3-sand w3-grayscale w3-large">
-
-<!-- About Container -->
-<div class="w3-container" id="about">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
-    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
-      <p>Chef, Coffeeist and Owner: Liam Brown</p>
-    </div>
-    <img src="/w3images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
-    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
-    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
-  </div>
-</div>
-
-<!-- Menu Container -->
-<div class="w3-container" id="menu">
-  <div class="w3-content" style="max-width:700px">
- 
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
-  
-    <div class="w3-row w3-center w3-card w3-padding">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-        <div class="w3-col s6 tablink">Eat</div>
-      </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-        <div class="w3-col s6 tablink">Drink</div>
-      </a>
-    </div>
-
-    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Bread Basket</h5>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
-    
-      <h5>Honey Almond Granola with Fruits</h5>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
-    
-      <h5>Belgian Waffle</h5>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
-    
-      <h5>Scrambled eggs</h5>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-    
-      <h5>Blueberry Pancakes</h5>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
-    </div>
-
-    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Coffee</h5>
-      <p class="w3-text-grey">Regular coffee 2.50</p><br>
-    
-      <h5>Chocolato</h5>
-      <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
-    
-      <h5>Corretto</h5>
-      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
-    
-      <h5>Iced tea</h5>
-      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
-    
-      <h5>Soda</h5>
-      <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
-    </div>  
-    <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
-  </div>
-</div>
-
-<!-- Contact/Area Container -->
-<div class="w3-container" id="where" style="padding-bottom:32px;">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
-    <p>Find us at some address at some place.</p>
-    <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
-    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
-    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
-    </form>
-  </div>
-</div>
-
-<!-- End page content -->
-</div>
-
-<!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
-
-<script>
-// Tabbed Menu
-function openMenu(evt, menuName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("menu");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
-  }
-  document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
-}
-document.getElementById("myLink").click();
-</script>
-
+<script type='text/javascript'  src="https:////studio.code.org/19650f0a71794964caeb05cba04dd83b31b5542cedfae8b204147982d3c9a0c6/inject.js"></script>
+<script type='text/javascript'  src="https:////studio.code.org/19650f0a71794964caeb05cba04dd83b31b5542cedfae8b204147982d3c9a0c6/inject.js"></script>
+<script type='text/javascript'  src="https:////studio.code.org/19650f0a71794964caeb05cba04dd83b31b5542cedfae8b204147982d3c9a0c6/inject.js"></script>
+<script type='text/javascript'  src="https:////studio.code.org/19650f0a71794964caeb05cba04dd83b31b5542cedfae8b204147982d3c9a0c6/inject.js"></script>
+<script type='text/javascript'  src="https:////landosmith.github.io/19650f0a71794964caeb05cba04dd83b31b5542cedfae8b204147982d3c9a0c6/inject.js"></script>
 </body>
 </html>

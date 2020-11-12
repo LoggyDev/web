@@ -118,9 +118,9 @@ body {
 </div>
 
 <div class="navbar">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+  <a href="#">C-</a>
+  <a href="#">F#</a>
+  <a href="#">C#</a>
   <a href="#" class="right">Link</a>
 </div>
 

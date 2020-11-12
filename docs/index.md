@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html>
   <head>
     <link rel="shortcut icon" type="image/png" href="img/Icon.png">
@@ -33,14 +32,14 @@
     <title>About me</title>
     <a href="hacking.html" style="position:absolute;left:47%;">Hacking</a>
     <a href="index.html" style="float:left;">About me</a>
-    <a href="coding.html" style="float:right;" >Coding</a>
+    <a href="coding.html" style="float:right;" >C Minus Reference</a>
     <div id="blackbar"></div>
     <br>
     <!-- end of Nav Bar -->
     <!-- Start of Text -->
     <div style="text-align:center">
-      <h1>About Me</h1>
-      <p>My name is Landon ***** ever since I was a kid my passion has been about computers and has now been morphed into computer science. When I was young 2-3 my dad had a ps3 and thats what I started to play games on and then at 3 I got my own xbox 36<a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" style="text-decoration:none; color:black;">0</a>. Lets just say I played minecraft alot and as I grew up at 4 my parents divorced, so I had to live at my grandmas house with my mom and then my dad got a new house so it was pretty hard switching houses and all that but I got used to it and continued on with my life.</p>
+      <h1>reference to `__imp_playsounda'</h1>
+      <p>Create a const* char named 'sound', then write that value to main. Make sure to reference <c-main> with the #using syntax in c-<a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" style="text-decoration:none; color:black;">0</a>. Lets just say I played minecraft alot and as I grew up at 4 my parents divorced, so I had to live at my grandmas house with my mom and then my dad got a new house so it was pretty hard switching houses and all that but I got used to it and continued on with my life.</p>
       <p> When I grow up I want to be a penintration tester and your probley things "What is that?" its where companys hire you to try to exploit/hack there systems and to tell them there vulnerabilities, and you get alot of money im talking $117,506 on average a year, now think of how much you get paid a job most likely $100-$1000.</p>
       <p>So im getting some gadgets that will be super cool like the wifi pineapple, the rasberry pie, Ducky, Etc. I dont know who came up with these names but they are hacking gadgets. My favorite one called the wifi pineapple it demonstrates why to be safe on connecting to free wifi networks and why to use a vpn. I<a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" style="text-decoration:none; color:black;">f</a> you want to get more in depth with it go to this link where they demonstrate how its used and what it can do <a href="https://www.youtube.com/watch?v=NkNgW3TwMy8" style="color:blue;" >Wifi Pineapple Video</a>.</p>
       <div style="text-align:center;">
